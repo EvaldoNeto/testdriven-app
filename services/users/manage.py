@@ -11,7 +11,7 @@ from project.api.models import User
 app = create_app()
 cli = FlaskGroup(create_app = create_app)
 
-
+#mopa
 @cli.command('recreate_db')
 def recreate_db():
     db.drop_all()
